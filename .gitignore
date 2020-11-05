@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+target
+deps
+*.iml
+src/main/resources/application.conf
+src/main/resources/maxmind
+.classpath
+.project
+.settings
+

@@ -40,7 +40,7 @@ public class MainFactory {
         /***
          * Design Pattern
          */
-        APlan plan = MyPlanFactory.buildPlan(planType);
+        APlan plan = MyPlanFactory.build(planType);
         System.out.println("Price (DP): " + plan.calculateFinalPrice(price));
     }
 }

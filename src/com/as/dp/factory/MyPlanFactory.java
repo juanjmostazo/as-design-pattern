@@ -1,8 +1,8 @@
 package com.as.dp.factory;
 
-public abstract class MyPlanFactory {
+public class MyPlanFactory {
 
-    public static APlan buildPlan(String type) {
+    public static APlan build(String type) {
         if (type.equals("DEFAULT")) {
             return new DefaultPlan();
         } else if (type.equals("STUDENT")) {
